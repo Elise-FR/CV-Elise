@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <link href="style-contact.css" rel="stylesheet" type="text/css">
+        
+        <title>Contact</title>
+
+    </head> 
+<body>
+
+        <a class="mail" href="mailto:elise.franzini@gmail.com">Contactez-moi</a> <br/>
+
+       <a href="index.html"> Retour CV </a><br/>
+
+       <h3>Formulaire de Contact:</h3>
+
+       <form action="https://httpbin.org/get" method="get">
+        
+      <div class="nom">
+        <label for="nom">Entrez votre nom:</label> <br/>
+        <input type="texte" name="nom" id="nom" required>
+      </div>
+
+      <div class="email">
+          <label for="mail">Entrez votre email: </label> <br/>
+          <input type="email" name="email" id="user_mail" required>
+      </div>
+
+      <div class="message"> 
+          <label for="Message">Ecrivez votre message:</label> <br/>
+          <textarea id="message" name="user_message"></textarea>
+      </div>
+
+      <div class="choix1">
+        Choisissez votre personnage préféré:<br/>
+        <input type="radio" id="Heisenberg" name="personnage" value="Heisenberg">
+        <label for="Heisenberg">Heisenberg</label>
+      </div>
+      <div class="choix1">
+        <input type="radio" id="Hal" name="personnage" value="Hal">
+         <label for="Hal">Hal</label>
+      </div> <br/>
+
+    <div class="choix2">
+      <label for="selection">Choisissez votre personnage:</label><br/>
+  <select name="persos" id="selection">
+    <option value="option">--choisissez une option--</option>
+    <option value="Hal">Hal</option>
+    <option value="Heisenberg">Heisenberg</option>
+    <option value="Desiato">Desiato</option>
+  </select>
+  </div> <br/>
+
+        <div class="envoyer">
+          <input type="submit" value="Envoyer!">
+        </div>
+      </form>
+</body>
+</html>

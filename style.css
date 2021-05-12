@@ -1,0 +1,152 @@
+
+body{
+    background: rgb(174, 247, 250);
+    height: 2100px;
+
+}
+
+img {
+    position:absolute;
+    top: 0%;
+    right: 50px;
+    border-radius: 15%;
+}
+
+.donnees { 
+    position: absolute;
+    top: 180px;
+    right: 50px;
+}
+
+
+.general{
+    position:absolute;
+    top: 5px;
+    left: 15px;
+}
+
+
+
+.bandeau-haut{
+    border: 5px solid rgb(51, 51, 63);
+    border-radius: 15px;
+}
+.prenom {
+    color: #02283f;
+}
+
+.nom {
+    background-color: #02283f;
+    color:#f3f5f7
+}
+
+h1 {
+    font-family: Georgia;
+    text-align: center;
+    
+}
+
+div { /*display: inline*/
+    display: inline-block;
+    padding: 15px;
+
+}
+
+nav {
+    background: rgb(40, 40, 71);
+    border-radius: 15px;
+    font-family: Impact;
+    color: rgb(255, 255, 255);
+
+}
+
+.fixe{
+    position: fixed;
+    top: 0;
+}
+
+p {
+    font-style: italic;
+    font-size: 16px;
+}
+.mise-en-avant {
+    font-weight: bolder;
+}
+
+a {
+    color: #0077bd;
+}
+
+h3 {
+    color:#0077bd;
+    font-family: Georgia;
+}
+
+td /* Toutes les cellules des tableaux... */
+{
+    border: 1px solid #0077bd; /* auront une bordure de 1px */
+}
+
+th /* Toutes les cellules des tableaux... */
+{
+    border: 2px solid #0077bd; /* auront une bordure de 1px */
+}
+
+table {
+    border: 3px solid #0077bd /*auront une bordure de 3px */
+}
+.titretab {
+    background-color: cyan;
+    color: rgb(0, 0, 0);
+}
+
+.dates-formations{
+    background-color:rgb(0, 102, 0)
+}
+.encours {
+    background-color: darkorange;
+}
+
+#langages{
+    display: inline-block;
+    position: absolute;
+    top: 550px;
+    left:1000px;
+    border:5px solid rgb(131, 3, 31);
+  
+}
+
+.html{
+    padding: 15px 20px;
+    font-family: fantasy;
+    background-color: rgb(133, 74, 86);
+    color:white;
+}
+
+.css{
+    padding: 15px 20px;
+    font-family: fantasy;
+    background-color: rgb(124, 22, 53);
+    color:white
+}
+
+.figma{
+    padding: 15px 15px;
+    font-family: fantasy;
+    background-color: rgb(83, 0, 21);
+    color:white
+}
+
+.box {
+    width: 250px;
+    height: 20px;
+    margin: 2px;
+    padding: 5px;
+    border: 5px solid rgb(8, 8, 8);
+    font-size: 20px;
+    color: white;
+    background-color:rgb(218, 37, 70)
+  }
+
+
+

@@ -1,0 +1,29 @@
+h1 {
+    color: darkred;
+    font-weight: 900;
+    text-align: center;
+    font-size: 400%;
+}
+
+img { position:fixed;
+    top: 0%;
+    left: 80%;
+
+} 
+
+ p{
+     font-size: 120%;
+     position: relative;
+     top:25%;
+     text-align:left;
+ }
+
+ .span {
+     position:relative;
+     top: 300%;
+ }
+.cliquez{
+    background-color: darkslategrey;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+}
